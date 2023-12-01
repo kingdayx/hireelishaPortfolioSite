@@ -1,5 +1,14 @@
 import React from "react";
+import { SocialIcon } from "react-social-icons";
 
-export default function Header() {
-  return <div>Header</div>;
+type Props = {};
+
+export default function Header({}: Props) {
+  return (
+    <header>
+      <div>
+        <SocialIcon url="https://www.github.com/kingdayx" />{" "}
+      </div>
+    </header>
+  );
 }
