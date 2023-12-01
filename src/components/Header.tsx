@@ -5,7 +5,7 @@ type Props = {};
 
 export default function Header({}: Props) {
   return (
-    <header className="sticky top-0 flex items-start justify-between max-w-7xl mx-auto">
+    <header className="sticky top-0 flex flex-row items-start justify-between max-w-7xl mx-auto z-20 xl:items-center p-5">
       <div className="flex flex-row items-center">
         <SocialIcon
           url="https://www.github.com/kingdayx"
