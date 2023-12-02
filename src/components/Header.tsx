@@ -7,11 +7,7 @@ type Props = {};
 export default function Header({}: Props) {
   return (
     <header className="sticky top-0 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center p-5">
-      <motion.div
-        initial={{ x: -500, opacity: 0, scale: 0.5 }}
-        animate={{ x: 0, opacity: 1, scale: 1 }}
-        className="flex flex-row items-center"
-      >
+      <motion.div className="flex flex-row items-center">
         <SocialIcon
           url="https://www.github.com/kingdayx"
           fgColor="gray"
